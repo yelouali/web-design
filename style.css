@@ -1,0 +1,471 @@
+/* ------ FONT ------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+.container-fluid {
+    width: 80%;
+    margin: auto;
+    border: 2px solid orangered;
+}
+
+.space {
+    height: 300px;
+}
+
+
+/* ------ BASE STYLING ------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------ GENERAL SETTINGS ------- */
+
+/* ------ BODY ------- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background: rgba(106, 142, 35, 0.432); */
+}
+
+/* ------ HYPER LINKS ------- */
+a {
+    text-decoration: none;
+    font-weight: 400;
+    /* 1.6x10 = 16px*/
+    font-size: 1.6rem;
+    color: whitesmoke;
+
+}
+
+/* ------ H1 ------- */
+h1 {
+    font-weight: 800;
+    /* font-size: 3.2rem; */
+    /* margin: 0.5 rem 0; */
+}
+
+/* ------ H2 ------- */
+h2 {
+    font-weight: 800;
+    /* font-size: 2.4rem; */
+    margin: 1.6rem 0;
+}
+
+/* ------ P ------- */
+p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+
+    margin: 1.6rem 0;
+}
+
+/* ------ IMAGES ------- */
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ------ MAIN FLEX CONTAINER ------- */
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin: aut
+}
+
+/* ------ SECTIONS ------- */
+section {
+    padding: 100px 0;
+}
+
+
+/* ------ HERO SECTION ------- */
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/office-space-1744801__340.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid orangered;
+}
+
+.logo {
+    color: white;
+    font-size: 3 rem;
+    /* border: 1px solid yellow; */
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+    align-items: center;
+    /* border: 1px solid orange; */
+}
+
+
+nav box-icon {
+    display: none;
+}
+
+nav ul {
+    text-decoration: none;
+    /* line-height: 100%; */
+    /* border: 1px solid yellow; */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 2.5rem;
+}
+
+nav ul li a:hover {
+    /* text-decoration: underline; */
+    /* transition: 1s ease-in; */
+    color: orangered;
+    /* text-decoration-thickness: 4px; */
+}
+
+
+.header-content {
+    width: 55%;
+    position: relative;
+    top: 80px;
+    left: 120px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+}
+
+.header-content p {
+    font-size: 1rem;
+}
+
+form {
+    margin: 2.4rem 0;
+}
+
+input {
+    font-size: 1rem;
+
+}
+
+input[type=text],
+input[type=email] {
+    width: 40%;
+    height: 2.9rem;
+    padding: 12px 20px;
+    margin: 1.2rem 0;
+    display: block;
+    border: none;
+    background-color: rgba(239, 235, 235, 0.776);
+    border-radius: 4px;
+
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+input[type=submit] {
+    width: 40%;
+    height: 2.9rem;
+    padding: 12px 20px;
+    margin: 1.2rem 0;
+    display: block;
+    border: none;
+    background-color: rgba(39, 36, 36, 0.776);
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+
+
+
+/* ------ About Us section-----------*/
+
+.about {
+
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid rgba(39, 36, 36, 0.776);
+    text-align: center;
+
+}
+
+.about-us {
+    /* height: 500px; */
+    margin-top: -30px;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+.about-us h2 {
+    padding: -35px;
+}
+
+.about .btn {
+    background-color: rgba(39, 36, 36, 0.776);
+    padding: 12px 30px;
+    margin: 40px 0;
+    border-radius: 4px;
+    color: whitesmoke;
+
+
+}
+
+.about-2 {
+    /* display: flex; */
+    width: 100%;
+    margin: auto;
+    border-bottom: 10px solid rgba(39, 36, 36, 0.776);
+
+
+}
+
+.about2-top {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+.about2-bottom {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-basis: 30%;
+    /* margin-right: 20px; */
+    /* border: 1px solid green; */
+
+}
+
+.about-2 .card {
+    width: 300px;
+    height: 200px;
+    margin: 5px 20px;
+    padding: 30px;
+    /* border: 2px solid rgba(39, 36, 36, 0.852); */
+    text-align: center;
+    background-color:black;
+    color: whitesmoke;
+    border-radius: 4px;
+
+}
+
+.about-2 h1 {
+    font-size: 2.2rem;
+}
+
+.about-2 ul {
+    list-style: none;
+    
+}
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: whitesmoke;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.process{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.progress-section h1{
+    text-align: center;
+}
+
+.progress-line{
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+
+.progress-line .c1,
+.progress-line .c2,
+.progress-line .c3{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+.progress-line .c1{
+    top: -8px;
+    left: 40px;
+    
+
+}
+.progress-line .c2{
+    top: -8px;
+    left: 50%;
+}
+.progress-line .c3{
+    top: -8px;
+    right: 40px;
+}
+
+.box1 p{
+    text-align: left;
+}
+.box2 p{
+    text-align: center;
+}
+.box3 p{
+    text-align: right;
+}
+
+
+
+
+
+
+@media only screen and (max-width:912px) {
+    nav {
+        flex-direction: column;
+        position: relative;
+    }
+
+    nav box-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+
+    nav ul {
+        position: absolute;
+        right: 10px;
+        top: 50px;
+        background: transparent;
+        text-align: end;
+        display: none;
+
+    }
+
+    .show-menu {
+        display: block;
+    }
+
+    nav ul li {
+        padding: 5% 0;
+        display: block;
+
+    }
+
+    nav ul li a {
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width:768px) {
+    nav {
+        flex-direction: column;
+        position: relative;
+    }
+
+    nav box-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+
+    nav ul {
+        position: absolute;
+        right: 10px;
+        top: 50px;
+        background: transparent;
+        text-align: end;
+        display: none;
+
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    .header-content {
+        text-align: left;
+    }
+
+    input[type=text],
+    input[type=email] {
+        width: 50%;
+        height: 1.7rem;
+        /* margin: auto; */
+        margin-bottom: 5px;
+    }
+
+    input::placeholder {
+        font-size: 12px;
+    }
+
+    input[type=submit] {
+        width: 50%;
+        height: 2.4rem;
+        /* margin: auto; */
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+   
+    .about2-bottom {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .show-menu {
+        display: block;
+    }
+
+    nav ul li {
+        padding: 5% 0;
+        display: block;
+
+    }
+
+    nav ul li a {
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+
+    }
+
+}
